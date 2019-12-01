@@ -1,0 +1,80 @@
+
+
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: .6em .5em;
+  color: #FFC0CB;
+
+  vertical-align: center;
+  display: inline-block;
+  text-align: center;
+  float: none;
+}
+
+.box2 {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: .6em .5em;
+  color: #FFC0CB;
+
+  vertical-align: center;
+  display: inline-block;
+  text-align: center;
+  float: none;
+}
+
+.box3 {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: .6em .5em;
+  color: #FFC0CB;
+
+  vertical-align: center;
+  display: inline-block;
+  text-align: center;
+  float: none;
+}
+
+.box4 {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: .6em .5em;
+  color: #FFC0CB;
+
+  vertical-align: center;
+  display: inline-block;
+  text-align: center;
+  float: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: .3em;
+}
+
+a {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: .6em .5em;
+  color: #FFC0CB;
+
+  vertical-align: center;
+  display: inline-block;
+  text-align: center;
+  float: none;
+}
+
+a:hover {
+  background-color: #FFC0CB;
+  color: #fff;
+}
