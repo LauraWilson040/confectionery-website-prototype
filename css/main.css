@@ -1,5 +1,3 @@
-
-
 html {
   box-sizing: border-box;
   background-color: #fff;
@@ -7,6 +5,32 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  background-color: #ffc0cb;
+  border: 3px solid #e75480;
+  padding: .75em;
+  display: block;
+  float: none;
+  width: 100%;
+}
+
+h1 {
+  background-color: #ffc0cb;
+  display: block;
+  width: 100%;
+  float: none;
+  color: #fff;
+
+  font-family: Georgia;
+  font-weight: normal;
+  text-align: center;
 }
 
 .box {
@@ -63,10 +87,10 @@ nav ul {
 }
 
 a {
-  background-color: #fff;
+  background-color: #e75480;
   border-radius: 5px;
   padding: .6em .5em;
-  color: #FFC0CB;
+  color: #fff;
 
   vertical-align: center;
   display: inline-block;
@@ -75,6 +99,6 @@ a {
 }
 
 a:hover {
-  background-color: #FFC0CB;
-  color: #fff;
+  background-color: #fff;
+  color: #e75480;
 }
