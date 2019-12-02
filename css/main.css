@@ -79,16 +79,17 @@ h1 {
 }
 
 img {
-  width: 100%;
-}
-
-.img-flex {
   display: block;
   width: 100%;
 }
 
-.candy {
+.img-flex {
+  flex-wrap: wrap;
   display: flex;
+}
+
+.candy {
+  width: 100%;
 }
 
 .footer{
@@ -165,7 +166,7 @@ h2 {
 }
 
 .copyright {
-  text-align: left;
+  text-align: right;
   display: block;
 }
 
