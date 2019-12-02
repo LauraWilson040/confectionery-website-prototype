@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #fff;
+  width: 100%;
 }
 
 *, *::before, *::after {
@@ -17,15 +18,11 @@ header {
   border: 3px solid #e75480;
   padding: .75em;
   display: block;
-  float: none;
-  width: 100%;
 }
 
 h1 {
   background-color: #ffc0cb;
   display: block;
-  width: 100%;
-  float: none;
   color: #fff;
 
   font-family: Georgia;
@@ -34,55 +31,48 @@ h1 {
 }
 
 .box {
-  background-color: #fff;
+  display: inline-block;
   border-radius: 5px;
   padding: .6em .5em;
   color: #FFC0CB;
 
-  vertical-align: center;
-  display: inline-block;
+  text-decoration: none;
   text-align: center;
-  float: none;
 }
 
 .box2 {
-  background-color: #fff;
+  display: inline-block;
   border-radius: 5px;
   padding: .6em .5em;
   color: #FFC0CB;
 
-  vertical-align: center;
-  display: inline-block;
+  text-decoration: none;
   text-align: center;
-  float: none;
 }
 
 .box3 {
-  background-color: #fff;
+  display: inline-block;
   border-radius: 5px;
   padding: .6em .5em;
   color: #FFC0CB;
 
-  vertical-align: center;
-  display: inline-block;
+  text-decoration: none;
   text-align: center;
-  float: none;
 }
 
 .box4 {
-  background-color: #fff;
+  display: inline-block;
   border-radius: 5px;
   padding: .6em .5em;
   color: #FFC0CB;
 
-  vertical-align: center;
-  display: inline-block;
+  text-decoration: none;
   text-align: center;
-  float: none;
 }
 
 nav ul {
   list-style-type: none;
+  text-decoration: none;
   margin: .3em;
 }
 
@@ -95,10 +85,16 @@ a {
   vertical-align: center;
   display: inline-block;
   text-align: center;
-  float: none;
 }
 
 a:hover {
   background-color: #fff;
   color: #e75480;
+}
+
+footer {
+  background-color: #ffc0cb;
+  border: 3px solid #e75480;
+  padding: .75em;
+  display: block;
 }
