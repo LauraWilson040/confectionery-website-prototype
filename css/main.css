@@ -28,13 +28,13 @@ body {
   margin: 0 0 1.3rem;
 }
 
-ul {
-  padding-inline-start: 0;
-}
-
 header nav {
   text-align: center;
   display: block;
+}
+
+ul {
+  padding-inline-start: 0;
 }
 
 .menu {
@@ -95,6 +95,36 @@ img {
 
 .candy {
   width: 100%;
+}
+
+.card-label {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  background-color: rgba(255, 255, 255, .6);
+  border-left: 4px solid #e75480;
+  position: absolute;
+  color: #000;
+  left: 0;
+  top: 0;
+}
+
+.card-label2 {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  background-color: rgba(255, 255, 255, .6);
+  border-left: 4px solid #e75480;
+  position: absolute;
+  color: #000;
+  left: 0;
+  top: 0;
+}
+
+.card-label3 {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  background-color: rgba(255, 255, 255, .6);
+  border-left: 4px solid #e75480;
+  position: absolute;
+  color: #000;
+  left: 0;
+  top: 0;
 }
 
 .about {
