@@ -1,7 +1,9 @@
 html {
+  font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
   background-color: #fff;
   width: 100%;
+  color: #fff;
 }
 
 *, *::before, *::after {
@@ -14,8 +16,7 @@ body {
 
 div {
   background-color: #ffc0cb;
-  border: 3px solid #e75480;
-  padding: .75em;
+  border: 2px solid #e75480;
   display: block;
 }
 
@@ -23,71 +24,61 @@ h1 {
   font-family: 'Lobster Two', cursive;
   text-align: center;
   font-weight: bold;
-  color: #fff;
 }
 
 nav ul {
-  font-family: 'Montserrat', sans-serif;
   list-style-type: none;
   text-decoration: none;
-  display: block;
-  margin: .3em;
 }
 
 .box {
   display: inline-block;
-  border-radius: 5px;
-  padding: .6em .5em;
-  color: #FFC0CB;
-
-  text-decoration: none;
   text-align: center;
+  border-radius: 5px;
+  color: #ffc0cb;
+  padding: .5em;
 }
 
 .box2 {
   display: inline-block;
-  border-radius: 5px;
-  padding: .6em .5em;
-  color: #FFC0CB;
-
-  text-decoration: none;
   text-align: center;
+  border-radius: 5px;
+  color: #ffc0cb;
+  padding: .5em;
 }
 
 .box3 {
   display: inline-block;
-  border-radius: 5px;
-  padding: .6em .5em;
-  color: #FFC0CB;
-
-  text-decoration: none;
   text-align: center;
+  border-radius: 5px;
+  color: #ffc0cb;
+  padding: .5em;
 }
 
 .box4 {
   display: inline-block;
-  border-radius: 5px;
-  padding: .6em .5em;
-  color: #FFC0CB;
-
-  text-decoration: none;
   text-align: center;
+  border-radius: 5px;
+  color: #ffc0cb;
+  padding: .5em;
 }
 
 a {
   background-color: #e75480;
-  border-radius: 5px;
-  padding: .6em .5em;
-  color: #fff;
-
-  vertical-align: center;
   display: inline-block;
   text-align: center;
+  border-radius: 5px;
+  padding: .5em;
+  color: #fff;
 }
 
 a:hover {
   background-color: #fff;
   color: #e75480;
+}
+
+img {
+  width: 100%;
 }
 
 .img-flex {
@@ -96,13 +87,9 @@ a:hover {
 }
 
 footer {
-  font-family: 'Montserrat', sans-serif;
   background-color: #ffc0cb;
-  border: 3px solid #e75480;
-  padding: .75em;
-  display: block;
-
-  font-family: Georgia;
-  font-weight: normal;
+  border: 2px solid #e75480;
   text-align: left;
+  display: block;
+  padding: .5em;
 }
