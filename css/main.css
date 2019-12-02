@@ -27,6 +27,11 @@ body {
   margin: 0 0 1.3rem;
 }
 
+header nav {
+  display: block;
+  text-align: center;
+}
+
 .menu {
   background-color: #ffc0cb;
   border: 2px solid #e75480;
