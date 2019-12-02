@@ -36,6 +36,7 @@ body {
 .icons {
   justify-content: space-between;
   display: flex;
+  width: 25%;
 }
 
 h1 {
