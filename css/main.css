@@ -9,11 +9,10 @@ html {
 }
 
 body {
-  line-height: 1.5;
   margin: 0;
 }
 
-header {
+div {
   background-color: #ffc0cb;
   border: 3px solid #e75480;
   padding: .75em;
@@ -21,16 +20,14 @@ header {
 }
 
 h1 {
-  background-color: #ffc0cb;
-  display: block;
-  color: #fff;
-
-  font-family: Georgia;
-  font-weight: normal;
+  font-family: 'Lobster Two', cursive;
   text-align: center;
+  font-weight: bold;
+  color: #fff;
 }
 
 nav ul {
+  font-family: 'Montserrat', sans-serif;
   list-style-type: none;
   text-decoration: none;
   display: block;
@@ -93,9 +90,19 @@ a:hover {
   color: #e75480;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
 footer {
+  font-family: 'Montserrat', sans-serif;
   background-color: #ffc0cb;
   border: 3px solid #e75480;
   padding: .75em;
   display: block;
+
+  font-family: Georgia;
+  font-weight: normal;
+  text-align: left;
 }
