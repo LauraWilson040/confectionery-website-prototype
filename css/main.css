@@ -101,11 +101,9 @@ img {
 }
 
 .blurb {
-  background-color: #ffc0cb;
   display: inline-block;
   text-align: left;
-  padding: .5em;
-  color: #fff;
+  color: #000;
 }
 
 .btn {
@@ -113,8 +111,8 @@ img {
   text-decoration: none;
   display: inline-block;
   text-align: left;
-  color: #ffc0cb;
   padding: .5em;
+  color: #fff;
 }
 .btn a {
   background-color: #ffc0cb;
@@ -127,7 +125,7 @@ img {
 
 .btn a:hover {
   text-decoration: none;
-  color: #e75480;
+  color: #fff;
 }
 
 .footer{
@@ -142,7 +140,7 @@ img {
 
 h2 {
   position: block;
-  color: #e75480;
+  color: #fff;
 }
 
 .links {
