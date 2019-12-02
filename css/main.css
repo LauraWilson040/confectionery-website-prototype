@@ -27,7 +27,7 @@ body {
   margin: 0 0 1.3rem;
 }
 
-div {
+.menu {
   background-color: #ffc0cb;
   border: 2px solid #e75480;
   display: block;
@@ -99,6 +99,10 @@ img {
   width: 100%;
 }
 
+.candy {
+  display: flex;
+}
+
 footer {
   font-family: 'Montserrat', sans-serif;
   background-color: #ffc0cb;
@@ -115,7 +119,7 @@ footer {
     line-height: 1.3;
   }
 
-  div,
+  .menu,
   p {
     margin: 0 0 1.3rem;
   }
@@ -129,7 +133,7 @@ footer {
     line-height: 1.4;
   }
 
-  div,
+  .menu,
   p {
     margin: 0 0 1.4rem;
   }
@@ -143,7 +147,7 @@ footer {
     line-height: 1.5;
   }
 
-  div,
+  .menu,
   p {
     margin: 0 0 1.5rem;
   }
