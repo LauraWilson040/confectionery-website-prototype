@@ -37,6 +37,10 @@ ul {
   padding-inline-start: 0;
 }
 
+li {
+  align-items: center;
+}
+
 .menu {
   background-color: #ffc0cb;
   border: 2px solid #e75480;
@@ -45,16 +49,17 @@ ul {
 
 .icons {
   justify-content: space-between;
+  padding: .5em;
   display: flex;
+  width: 20%;
 }
 
 h1 {
   font-family: 'Lobster Two', cursive;
   text-align: center;
-  font-weight: bold;
-  padding: .5em 0;
   font-size: 2rem;
   display: block;
+  padding: 2em;
   margin: 0;
 }
 
