@@ -240,7 +240,7 @@ h2 {
 }
 
 .fine-print {
-  align-items: flex-start;
+  align-items: center;
   margin-right: auto;
   margin-left: auto;
   text-align: left;
@@ -269,7 +269,7 @@ h2 {
   }
 
   .fine-print {
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -306,20 +306,20 @@ h2 {
   }
 
   .fine-print {
-    align-items: center;
-    text-align: center;
+    align-items: flex-end;
     margin-right: auto;
     margin-left: auto;
+    text-align: right;
     display: block;
   }
 
   .copyright {
-    text-align: center;
+    text-align: right;
     display: block;
   }
 
   .date {
-    text-align: center;
+    text-align: right;
     display: block;
   }
 
@@ -343,20 +343,20 @@ h2 {
   }
 
   .fine-print {
-    align-items: center;
-    text-align: center;
+    align-items: flex-end;
     margin-right: auto;
     margin-left: auto;
+    text-align: right;
     display: block;
   }
 
   .copyright {
-    text-align: center;
+    text-align: right;
     display: block;
   }
 
   .date {
-    text-align: center;
+    text-align: right;
     display: block;
   }
 
@@ -382,7 +382,7 @@ h2 {
     align-items: flex-end;
     margin-right: auto;
     margin-left: auto;
-    text-align: left;
+    text-align: right;
     display: block;
   }
 
