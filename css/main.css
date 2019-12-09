@@ -183,27 +183,21 @@ h2 {
 }
 
 .fine-print {
-  padding: 0.5em 0.75em;
-  align-items: center;
-  text-align: center;
+  text-align: left;
+  padding: 0 0.5em;
   display: block;
-  margin: auto;
 }
 
 .copyright {
-  padding: 0.5em 0.75em;
-  align-items: center;
-  text-align: center;
+  text-align: left;
+  padding: 0 0.5em;
   display: block;
-  margin: auto;
 }
 
 .date {
-  padding: 0.5em 0.75em;
-  align-items: center;
-  text-align: center;
+  text-align: left;
+  padding: 0 0.5em;
   display: block;
-  margin: auto;
 }
 
 @media only screen and (min-width: 25em) {
@@ -216,21 +210,6 @@ h2 {
   body {
     margin: 0 0 1.3rem;
   }
-
-  .fine-print {
-    align-items: flex-end;
-    text-align: right;
-  }
-
-  .copyright {
-    text-align: right;
-  }
-
-  .date {
-    text-align: right;
-  }
-
-}
 
 @media only screen and (min-width: 38em) {
 
@@ -247,6 +226,13 @@ h2 {
     display: inline-block;
     width: 33.3333%;
     float: left;
+  }
+
+  .icons {
+    justify-content: space-between;
+    padding: .5em;
+    display: flex;
+    width: 35%;
   }
 
   .fine-print {
@@ -281,6 +267,13 @@ h2 {
     float: left;
   }
 
+  .icons {
+    justify-content: space-between;
+    padding: .5em;
+    display: flex;
+    width: 40%;
+  }
+
   .fine-print {
     align-items: flex-end;
     text-align: right;
@@ -310,6 +303,21 @@ h2 {
     display: inline-block;
     width: 33.3333%;
     float: left;
+  }
+
+  .icons {
+    justify-content: space-between;
+    padding: .75em 1em;
+    display: flex;
+    width: 40%;
+  }
+
+  h1 {
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    font-size: 3rem;
+    display: block;
+    padding: 0 1em;
   }
 
   .fine-print {
