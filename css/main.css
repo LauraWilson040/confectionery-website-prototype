@@ -219,20 +219,15 @@ h2 {
 
   .fine-print {
     align-items: flex-end;
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
+    text-align: right;
   }
 
   .copyright {
-    text-align: center;
-    display: block;
+    text-align: right;
   }
 
   .date {
-    text-align: center;
-    display: block;
+    text-align: right;
   }
 
 }
@@ -256,20 +251,15 @@ h2 {
 
   .fine-print {
     align-items: flex-end;
-    margin-right: auto;
-    margin-left: auto;
     text-align: right;
-    display: block;
   }
 
   .copyright {
     text-align: right;
-    display: block;
   }
 
   .date {
     text-align: right;
-    display: block;
   }
 
 }
@@ -293,20 +283,15 @@ h2 {
 
   .fine-print {
     align-items: flex-end;
-    margin-right: auto;
-    margin-left: auto;
     text-align: right;
-    display: block;
   }
 
   .copyright {
     text-align: right;
-    display: block;
   }
 
   .date {
     text-align: right;
-    display: block;
   }
 
 }
@@ -329,20 +314,15 @@ h2 {
 
   .fine-print {
     align-items: flex-end;
-    margin-right: auto;
-    margin-left: auto;
     text-align: right;
-    display: block;
   }
 
   .copyright {
     text-align: right;
-    display: block;
   }
 
   .date {
     text-align: right;
-    display: block;
   }
 
 }
