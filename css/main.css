@@ -143,6 +143,7 @@ img {
 }
 
 .blurb {
+  font-family: 'Montserrat', sans-serif;
   display: inline-block;
   text-align: left;
   color: #000;
