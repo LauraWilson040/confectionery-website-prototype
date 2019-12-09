@@ -101,38 +101,17 @@ img {
   display: flex;
 }
 
-.candy {
+.card-flex {
+  display: flex;
   width: 100%;
 }
 
-.card-label1 {
+.card-label {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
   background-color: rgba(255, 255, 255, .6);
   border-left: 4px solid #e75480;
   position: absolute;
   color: #000;
-  left: 40px;
-  top: 482px;
-}
-
-.card-label2 {
-  padding: .3rem 1rem .3rem calc(1rem - 4px);
-  background-color: rgba(255, 255, 255, .6);
-  border-left: 4px solid #e75480;
-  position: absolute;
-  color: #000;
-  left: 40px;
-  top: 682px;
-}
-
-.card-label3 {
-  padding: .3rem 1rem .3rem calc(1rem - 4px);
-  background-color: rgba(255, 255, 255, .6);
-  border-left: 4px solid #e75480;
-  position: absolute;
-  color: #000;
-  left: 40px;
-  top: 882px;
 }
 
 .about {
