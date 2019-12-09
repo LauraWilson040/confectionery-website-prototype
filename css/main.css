@@ -41,9 +41,9 @@ li {
 }
 
 .icons {
+  justify-content: space-between;
   background-color: #ffc0cb;
   border: 2px solid #e75480;
-  justify-content: space-between;
   align-items: center;
   display: flex;
   margin: 0;
@@ -230,9 +230,9 @@ h2 {
   }
 
   .icons {
+    justify-content: space-between;
     background-color: #ffc0cb;
     border: 2px solid #e75480;
-    justify-content: space-between;
     align-items: center;
     display: flex;
     margin: 0;
@@ -289,9 +289,9 @@ h2 {
   }
 
   .icons {
+    justify-content: space-between;
     background-color: #ffc0cb;
     border: 2px solid #e75480;
-    justify-content: space-between;
     align-items: center;
     display: flex;
     margin: 0;
@@ -347,9 +347,9 @@ h2 {
   }
 
   .icons {
+    justify-content: space-between;
     background-color: #ffc0cb;
     border: 2px solid #e75480;
-    justify-content: space-between;
     align-items: center;
     display: flex;
     margin: 0;
