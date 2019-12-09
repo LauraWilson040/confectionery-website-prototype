@@ -123,23 +123,10 @@ img {
   background-color: #e75480;
   margin-block-end: 0.5em;
   margin-block-start: 0;
-  text-decoration: none;
-  display: inline-block;
-  text-align: left;
-  padding: .5em;
-  color: #fff;
-}
-.btn a {
-  background-color: #ffc0cb;
   display: inline-block;
   text-decoration: none;
   text-align: left;
   padding: .5em;
-  color: #fff;
-}
-
-.btn a:hover {
-  text-decoration: none;
   color: #fff;
 }
 
@@ -160,7 +147,6 @@ h2 {
 
 .links {
   padding: 0.5em 0.75em;
-  list-style-type: none;
   text-align: left;
   display: block;
   color: #ffc0cb;
@@ -170,56 +156,54 @@ h2 {
   list-style-type: none;
   text-decoration: none;
   display: inline-block;
-  text-align: left;
   color: #fff;
 }
 
 .links a:hover {
   text-decoration: underline;
-  list-style-type: none;
   color: #e75480;
 }
 
 .socials {
   padding: 0.5em 0.75em;
-  list-style-type: none;
   text-align: left;
   display: block;
   color: #ffc0cb;
 }
 .socials a {
   list-style-type: none;
-  display: inline-block;
   text-decoration: none;
-  text-align: left;
+  display: inline-block;
   color: #fff;
 }
 
 .socials a:hover {
   text-decoration: underline;
-  list-style-type: none;
   color: #e75480;
 }
 
 .fine-print {
   padding: 0.5em 0.75em;
   align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: left;
+  text-align: center;
   display: block;
+  margin: auto;
 }
 
 .copyright {
   padding: 0.5em 0.75em;
-  text-align: left;
+  align-items: center;
+  text-align: center;
   display: block;
+  margin: auto;
 }
 
 .date {
   padding: 0.5em 0.75em;
-  text-align: left;
+  align-items: center;
+  text-align: center;
   display: block;
+  margin: auto;
 }
 
 @media only screen and (min-width: 25em) {
