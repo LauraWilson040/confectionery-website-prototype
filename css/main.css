@@ -50,7 +50,9 @@ li {
 }
 
 .icon {
-  width: 50px;
+  width: 80px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 h1 {
@@ -229,17 +231,10 @@ h2 {
     float: left;
   }
 
-  .icons {
-    justify-content: space-between;
-    background-color: #ffc0cb;
-    border: 2px solid #e75480;
-    align-items: center;
-    display: flex;
-    margin: 0;
-  }
-
   .icon {
-    width: 50px;
+    width: 85px;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
   }
 
   h1 {
@@ -298,8 +293,11 @@ h2 {
   }
 
   .icon {
-    width: 50px;
+    width: 90px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
   }
+
 
   h1 {
     font-family: 'Lobster Two', cursive;
@@ -346,17 +344,10 @@ h2 {
     float: left;
   }
 
-  .icons {
-    justify-content: space-between;
-    background-color: #ffc0cb;
-    border: 2px solid #e75480;
-    align-items: center;
-    display: flex;
-    margin: 0;
-  }
-
   .icon {
-    width: 50px;
+    width: 100px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
   }
 
   h1 {
