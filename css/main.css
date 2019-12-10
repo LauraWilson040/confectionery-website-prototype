@@ -32,11 +32,7 @@ header nav {
   display: block;
 }
 
-ul {
-  padding-inline-start: 0;
-}
-
-li {
+ul li {
   align-items: center;
 }
 
@@ -104,9 +100,7 @@ img {
 
 .about {
   background-color: #ffc0cb;
-  margin-block-start: 1em;
   display: inline-block;
-  margin-block-end: 0;
   text-align: left;
   padding: .5em;
   color: #fff;
@@ -114,16 +108,12 @@ img {
 
 .blurb {
   display: inline-block;
-  margin-block-start: 1.5em;
-  margin-block-end: 1.5em;
   text-align: left;
   color: #000;
 }
 
 .btn {
   background-color: #e75480;
-  margin-block-end: 0.5em;
-  margin-block-start: 0;
   display: inline-block;
   text-decoration: none;
   text-align: left;
@@ -142,7 +132,7 @@ img {
 }
 
 h2 {
-  position: block;
+  display: block;
   color: #fff;
 }
 
@@ -212,182 +202,185 @@ h2 {
     margin: 0 0 1.3rem;
   }
 
-  @media only screen and (min-width: 38em) {
+}
 
-    html {
-      font-size: 110%;
-      line-height: 1.4;
-    }
+@media only screen and (min-width: 38em) {
 
-    body {
-      margin: 0 0 1.4rem;
-    }
-
-    img {
-      display: inline-block;
-      width: 33.3333%;
-      float: left;
-    }
-
-    section {
-      flex-wrap: wrap;
-      display: flex;
-    }
-
-    .img-flex {
-      width: 33.33%;
-    }
-
-    .dino:first-child {
-      display: none;
-    }
-
-    .dino:last-child {
-      display: block;
-    }
-
-    .icon {
-      width: 85px;
-      padding-left: 0.6rem;
-      padding-right: 0.6rem;
-    }
-
-    h1 {
-      font-family: 'Lobster Two', cursive;
-      align-self: center;
-      text-align: center;
-      font-size: 2rem;
-      display: block;
-      padding: 0 1em;
-    }
-
-    .fine-print {
-      display: block;
-      text-align: right;
-      padding-top: 5.5em;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-    }
-
-    .copyright {
-      text-align: right;
-      display: block;
-    }
-
-    .date {
-      text-align: right;
-      display: block;
-    }
-
+  html {
+    font-size: 110%;
+    line-height: 1.4;
   }
 
-  @media only screen and (min-width: 60em) {
-
-    html {
-      font-size: 120%;
-      line-height: 1.5;
-    }
-
-    body {
-      margin: 0 0 1.5rem;
-    }
-
-    img {
-      display: inline-block;
-      width: 33.3333%;
-      float: left;
-    }
-
-    .icons {
-      justify-content: space-between;
-      background-color: #ffc0cb;
-      border: 2px solid #e75480;
-      align-items: center;
-      display: flex;
-      margin: 0;
-    }
-
-    .icon {
-      width: 90px;
-      padding-left: 0.7rem;
-      padding-right: 0.7rem;
-    }
-
-    h1 {
-      font-family: 'Lobster Two', cursive;
-      align-self: center;
-      text-align: center;
-      font-size: 2.5rem;
-      display: block;
-      padding: 0 1em;
-    }
-
-    .fine-print {
-      display: block;
-      text-align: right;
-      padding-top: 5.5em;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-    }
-
-    .copyright {
-      text-align: right;
-      display: block;
-    }
-
-    .date {
-      text-align: right;
-      display: block;
-    }
-
+  body {
+    margin: 0 0 1.4rem;
   }
 
-  @media only screen and (min-width: 90em) {
-
-    html {
-      font-size: 130%;
-    }
-
-    body {
-      margin: 0 0 1.5rem;
-    }
-
-    img {
-      display: inline-block;
-      width: 33.3333%;
-      float: left;
-    }
-
-    .icon {
-      width: 100px;
-      padding-left: 0.8rem;
-      padding-right: 0.8rem;
-    }
-
-    h1 {
-      font-family: 'Lobster Two', cursive;
-      align-self: center;
-      text-align: center;
-      font-size: 3rem;
-      display: block;
-      padding: 0 1em;
-    }
-
-    .fine-print {
-      display: block;
-      text-align: right;
-      padding-top: 5.5em;
-      padding-left: 0.5em;
-      padding-right: 0.5em;
-    }
-
-    .copyright {
-      text-align: right;
-      display: block;
-    }
-
-    .date {
-      text-align: right;
-      display: block;
-    }
+  img {
+    display: inline-block;
+    width: 33.3333%;
+    float: left;
   }
+
+  section {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .img-flex {
+    width: 33.33%;
+  }
+
+  .dino:first-child {
+    display: none;
+  }
+
+  .dino:last-child {
+    display: block;
+  }
+
+  .icon {
+    width: 85px;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+
+  h1 {
+    font-family: 'Lobster Two', cursive;
+    align-self: center;
+    text-align: center;
+    font-size: 2rem;
+    display: block;
+    padding: 0 1em;
+  }
+
+  .fine-print {
+    display: block;
+    text-align: right;
+    padding-top: 5.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .copyright {
+    text-align: right;
+    display: block;
+  }
+
+  .date {
+    text-align: right;
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  body {
+    margin: 0 0 1.5rem;
+  }
+
+  img {
+    display: inline-block;
+    width: 33.3333%;
+    float: left;
+  }
+
+  .icons {
+    justify-content: space-between;
+    background-color: #ffc0cb;
+    border: 2px solid #e75480;
+    align-items: center;
+    display: flex;
+    margin: 0;
+  }
+
+  .icon {
+    width: 90px;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+
+  h1 {
+    font-family: 'Lobster Two', cursive;
+    align-self: center;
+    text-align: center;
+    font-size: 2.5rem;
+    display: block;
+    padding: 0 1em;
+  }
+
+  .fine-print {
+    display: block;
+    text-align: right;
+    padding-top: 5.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .copyright {
+    text-align: right;
+    display: block;
+  }
+
+  .date {
+    text-align: right;
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  body {
+    margin: 0 0 1.5rem;
+  }
+
+  img {
+    display: inline-block;
+    width: 33.3333%;
+    float: left;
+  }
+
+  .icon {
+    width: 100px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+
+  h1 {
+    font-family: 'Lobster Two', cursive;
+    align-self: center;
+    text-align: center;
+    font-size: 3rem;
+    display: block;
+    padding: 0 1em;
+  }
+
+  .fine-print {
+    display: block;
+    text-align: right;
+    padding-top: 5.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .copyright {
+    text-align: right;
+    display: block;
+  }
+
+  .date {
+    text-align: right;
+    display: block;
+  }
+
+}
