@@ -224,7 +224,9 @@ h2 {
   }
 
   img {
-    display: inline;
+    display: inline-block;
+    width: 33.3333%;
+    float: left;
   }
 
   section {
@@ -388,5 +390,4 @@ h2 {
     text-align: right;
     display: block;
   }
-
 }
