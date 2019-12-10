@@ -91,7 +91,6 @@ img {
 }
 
 .card-flex {
-  display: flex;
   width: 100%;
 }
 
@@ -225,9 +224,24 @@ h2 {
   }
 
   img {
-    display: inline-block;
-    width: 33.3333%;
-    float: left;
+    display: inline;
+  }
+
+  section {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .card-flex {
+    width: 33.33%;
+  }
+
+  .dino:first-child {
+    display: none;
+  }
+
+  .dino:last-child {
+    display: block;
   }
 
   .icon {
@@ -296,7 +310,6 @@ h2 {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
   }
-
 
   h1 {
     font-family: 'Lobster Two', cursive;
