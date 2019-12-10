@@ -124,6 +124,7 @@ img {
   background-color: #ffc0cb;
   border: 2px solid #e75480;
   list-style-type: none;
+  position: relative;
   padding: 1em 2em;
   flex-wrap: wrap;
   display: flex;
