@@ -90,7 +90,7 @@ img {
   width: 100%;
 }
 
-.card-flex {
+.img-flex {
   width: 100%;
 }
 
@@ -234,7 +234,7 @@ h2 {
       display: flex;
     }
 
-    .card-flex {
+    .img-flex {
       width: 33.33%;
     }
 
